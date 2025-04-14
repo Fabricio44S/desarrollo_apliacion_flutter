@@ -17,7 +17,6 @@ elevation: 0,
 backgroundColor: Colors.deepOrangeAccent[300],
 ),
 body: ListView.separated(
-itemCount: 10,
 itemBuilder:
 (context, index) => ListTile(
 leading: Icon(menuOptions[index].icon),
@@ -27,10 +26,12 @@ onTap: () {
   //   builder:(context) => Biblioteca(),
   // );
   // Navigator.push(context, route);
-  Navigator.pushNamed(context,'Biblioteca');
+ // Navigator.pushNamed(context,'Biblioteca');
+   Navigator.pushNamed(context, menuOptions[index].route);
 },
 ),
 separatorBuilder: (_, __) => Divider(),
+itemCount: AppRoutes.menuOptions.length,
 ),
 );
   }

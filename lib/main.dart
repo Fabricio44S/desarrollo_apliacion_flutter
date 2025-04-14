@@ -1,4 +1,5 @@
 import 'package:code1/routes/app_routes.dart';
+import 'package:code1/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,13 +21,11 @@ class MyApp extends StatelessWidget {
       
       routes: AppRoutes.getAppRoutes(),
       onGenerateRoute: AppRoutes.onGenerateRoute,
-      theme: ThemeData.light().copyWith(
-        primaryColor: Colors.blue,
-        appBarTheme: AppBarTheme(color: Colors.blue),
-      ),
+      theme: AppTheme.lightTheme,
       // onGenerateRoute: (setting){
       //   return MaterialPageRoute(builder: (context) => Biblioteca());
       // },
+      // Navigator.pushNamed(context, menuOptions[index].route);
 
     );
   }

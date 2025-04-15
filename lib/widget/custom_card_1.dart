@@ -8,7 +8,7 @@ return Card(
 child: Column(
 children: [
 ListTile(
-leading: Icon(Icons.photo_album_outlined, color: AppTheme.primaryColor),
+leading: Icon(Icons.photo_album_outlined, color: AppTheme2.primary), // Cambia el color del icono
 title: const Text('Inauguración Año Deportivo'),
 subtitle: const Text(
 'Exercitation id ullamco esse nostrud culpa minim dolore aliquip culpaaute tempor est nulla mollit.',

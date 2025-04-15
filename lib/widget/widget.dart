@@ -1,0 +1,1 @@
+export 'package:code1/widget/custom_tarjeta_1.dart';

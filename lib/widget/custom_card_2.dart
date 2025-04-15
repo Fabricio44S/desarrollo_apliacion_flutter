@@ -1,5 +1,5 @@
 import 'package:code1/theme/app_theme.dart';
-import 'package:code1/theme/app_theme.dart';
+//import 'package:code1/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class Card2Page extends StatelessWidget {

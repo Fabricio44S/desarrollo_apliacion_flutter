@@ -1,4 +1,3 @@
-import 'package:code1/theme/app_theme.dart';
 import 'package:code1/widget/custom_tarjeta_1.dart';
 import 'package:flutter/material.dart';
 

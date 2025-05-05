@@ -88,8 +88,9 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
   assets:
-  - assets/images/biblioteca.jpg
-  - assets/images/foro.jpg
-  - assets/images/informacion.png
-  - assets/images/noticias.jpg
-  - assets/images/repositorio.jpg
+    - assets/images/biblioteca.jpg
+    - assets/images/foro.jpg
+    - assets/images/informacion.png
+    - assets/images/noticias.jpg
+    - assets/images/repositorio.jpg
+    - assets/images/imagen1.jpg

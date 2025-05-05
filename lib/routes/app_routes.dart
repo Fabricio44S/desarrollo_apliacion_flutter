@@ -22,6 +22,7 @@ class AppRoutes {
     MenuOptions(route: 'Card1', name: 'customCard1', screen: CustomCardType1(), icon: Icons.add_ic_call_outlined),
     MenuOptions(route: 'Card2', name: 'customCard2', screen: Card2Page(imageUrl: 'assets/images/biblioteca.jpg',), icon: Icons.add_ic_call_outlined),
     MenuOptions(route: 'Card3', icon: Icons.yard, name:'customCard3', screen: Card3Page(),),
+    MenuOptions(route: 'Avatar', icon: Icons.accessibility_new, name:'Avatar', screen: AvatarScreen(),),
 
   ];
 

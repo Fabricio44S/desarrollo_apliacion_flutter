@@ -1,6 +1,6 @@
-import 'package:code1/theme/app_theme.dart';
 import 'package:code1/widget/custom_tarjeta_1.dart';
 import 'package:flutter/material.dart';
+import '../widget/custom_tarjeta_2.dart';
 
 
 // void main() => runApp(const MyApp());
@@ -22,6 +22,9 @@ class CardScreen extends StatelessWidget {
           //theme: AppTheme2.lightTheme,
           children: [
             CustomTarjeta1(),
+             CustomTarjeta2(
+              imageUrl: 'https://cdn.pixabay.com/photo/2024/04/08/18/23/ai-generated-8684145_1280.jpg',
+            ),
           ],
         ),
       ),

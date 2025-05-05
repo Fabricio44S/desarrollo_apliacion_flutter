@@ -11,6 +11,14 @@ class AppTheme {
       elevation: 0,
     ),
   );
+
+  static final ThemeData darkTheme = ThemeData.dark().copyWith(
+    primaryColor: Colors.amber,
+    appBarTheme: const AppBarTheme(
+      color: primaryColor,
+      elevation: 0,
+    ),
+  );
 }
 
 

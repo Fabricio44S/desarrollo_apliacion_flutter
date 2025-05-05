@@ -14,7 +14,7 @@ class CustomTarjeta1 extends StatelessWidget {
         children: [
           ListTile(
             leading: Icon(Icons.add_ic_call_outlined, color:AppTheme.primaryColor ,),
-            title: Text('Tajetas 1'),
+            title: Text('Tajeta 1'),
             subtitle: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris.'),
           ),
           Padding(

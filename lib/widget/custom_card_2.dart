@@ -39,7 +39,7 @@ class CustomCardType2 extends StatelessWidget {
             title: const Text('Título de la imagen'),
             subtitle: const Text('Descripción breve de la imagen.'),
           ),
-          ButtonBar(
+          OverflowBar(
             children: [
               TextButton(onPressed: () {}, child: const Text('Ver')),
               TextButton(onPressed: () {}, child: const Text('Compartir')),
